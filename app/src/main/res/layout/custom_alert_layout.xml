@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Alert Dialog"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this is a native custom dialog.you can make any thing you want "
+        android:textSize="20sp"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/tv_cancle"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text="Cancel"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:foreground="?attr/selectableItemBackground"
+            />
+        <Button
+            android:id="@+id/tv_submit"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text="submit"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:foreground="?attr/selectableItemBackground"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

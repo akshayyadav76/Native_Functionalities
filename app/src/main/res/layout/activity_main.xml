@@ -9,14 +9,51 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btnCameraPermission"
         android:height="50dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Request Permission"
         android:textSize="20sp"
+        android:layout_margin="10dp"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:background="@drawable/outline_button"
+        />
 
+    <Button
+        android:id="@+id/btnSnackBar"
+        android:height="50dp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snack Bar"
+        android:textSize="20sp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/outline_button"
+        />
+
+    <Button
+        android:id="@+id/btnAlertDialog"
+        android:height="50dp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert dialog"
+        android:textSize="20sp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/outline_button"
+        />
+
+    <Button
+        android:id="@+id/btnCustomDialog"
+        android:height="50dp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="custom dialog"
+        android:textSize="20sp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/outline_button"
         />
 
 </LinearLayout>
