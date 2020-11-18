@@ -77,6 +77,8 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+
+        //==========for custom dialog
         btnCustomDialog.setOnClickListener {view ->
             val customDialg = Dialog(this)
             /* set the screen content from a layout resource
@@ -92,6 +94,16 @@ class MainActivity : AppCompatActivity() {
                 customDialg.dismiss()
             }
             customDialg.show()
+        }
+
+
+        //=========for custom progress bar
+        btnProgressBar.setOnClickListener {
+            val progressBar = Dialog(this)
+
+
+            progressBar.setContentView(R.layout.custom_progress_dialog_layout)
+            progressBar.show()
         }
 
     }

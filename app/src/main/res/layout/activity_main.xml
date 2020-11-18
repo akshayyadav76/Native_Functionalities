@@ -56,4 +56,16 @@
         android:background="@drawable/outline_button"
         />
 
+    <Button
+        android:id="@+id/btnProgressBar"
+        android:height="50dp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progress Bar"
+        android:textSize="20sp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/outline_button"
+        />
+
 </LinearLayout>
